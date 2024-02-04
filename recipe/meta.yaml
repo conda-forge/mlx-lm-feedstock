@@ -1,5 +1,5 @@
 {% set name = "mlx-lm" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mlx-lm-{{ version }}.tar.gz
-    sha256: c81a7e3c0c3e24f2d1503f4a91c16dec36d17020b47e4363d1decdfbf4255bd1
+    sha256: c279d53e89f4ee15fe1172b0d3b1c85f82fe4ec632a5e1ffa4836d171f66a690
   # As there is no tag in the mlx-examples repo, we need to reference a commit here.
   - url: https://raw.githubusercontent.com/ml-explore/mlx-examples/a932012c1291b675e74f899d671883b7c41eb0db/LICENSE
     fn: LICENSE
