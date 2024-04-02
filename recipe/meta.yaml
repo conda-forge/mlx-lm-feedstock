@@ -1,5 +1,5 @@
 {% set name = "mlx-lm" %}
-{% set version = "0.4.0" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mlx-lm-{{ version }}.tar.gz
-    sha256: 0d4f4c6265c14c44dce98ce42d51a1391db74eb36e0ad930109b34af7142f919
+    sha256: ed5dfac39731e6acc776ebdb62495b7793545362fa76233f848c502caa322b57
   # As there is no tag in the mlx-examples repo, we need to reference a commit here.
   - url: https://raw.githubusercontent.com/ml-explore/mlx-examples/a932012c1291b675e74f899d671883b7c41eb0db/LICENSE
     fn: LICENSE
@@ -26,7 +26,7 @@ requirements:
     - jinja2
     - pyyaml
     - python >=3.8
-    - mlx >=0.6
+    - mlx >=0.8
     - numpy
     - transformers >=4.38.0
     - protobuf
