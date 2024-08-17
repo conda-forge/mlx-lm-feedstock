@@ -143,6 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@conda-forge/mlx](https://github.com/conda-forge/mlx/)
+* [@conda-forge/mlx](https://github.com/orgs/conda-forge/teams/mlx/)
 * [@sugatoray](https://github.com/sugatoray/)
 
